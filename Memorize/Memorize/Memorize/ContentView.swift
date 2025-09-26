@@ -25,9 +25,9 @@ struct ContentView: View {
                     .frame(width: 80, height: 80)
                     .onTapGesture {
                         circleColor = randomColor()
+                        print("Button clicked, color: \(circleColor)")
                     }
                     .padding()
-
                 Spacer()
             }
 
